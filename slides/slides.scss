@@ -2,6 +2,11 @@
 
 // TODO: shared theme for all workshop slide decks
 
+// Same font as https://github.com/EmilHvitfeldt/talk-quarto-editable
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+$font-family-sans-serif: "Happy Monkey", cursive;
+
 /*-- scss:rules --*/
 
 // ---------------------------------------------------------------------------
