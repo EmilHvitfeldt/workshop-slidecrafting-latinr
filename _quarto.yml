@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - slides/
+    - assets/
 
 website:
   title: "Slidecrafting Workshop"
@@ -52,6 +53,17 @@ format:
     theme:
       - cosmo
       - styles.scss
+    include-in-header:
+      - text: |
+          <script>
+          try {
+            var p = localStorage.getItem('pw-palette');
+            if (['mint', 'lavender', 'sunny'].indexOf(p) !== -1) {
+              document.documentElement.setAttribute('data-palette', p);
+            }
+          } catch (e) {}
+          </script>
+    include-after-body: window-buttons.html
 
 execute:
   freeze: auto

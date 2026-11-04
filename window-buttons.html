@@ -1,0 +1,128 @@
+<script>
+// The dots in the title bar of the content window are real buttons:
+//   yellow dot: a cat peeks out above the window (and goes back down)
+//   lilac dot:  cycles through the colour palettes
+// The palette is stored in localStorage and applied early by the snippet in
+// <head> (see include-in-header in _quarto.yml) so the page never flashes.
+(function () {
+  var main = document.getElementById('quarto-document-content');
+  if (!main) return;
+  var root = document.documentElement;
+
+  var toast = document.createElement('span');
+  toast.className = 'pw-palette-toast';
+  toast.setAttribute('role', 'status');
+  var toastTimer;
+  function say(text) {
+    toast.textContent = text;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 1400);
+  }
+
+  function dotButton(className) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = className;
+    return b;
+  }
+
+  // ---- Lilac dot: palette -------------------------------------------------
+  var palettes = ['strawberry', 'mint', 'lavender', 'sunny'];
+
+  function current() {
+    var p = root.getAttribute('data-palette');
+    return palettes.indexOf(p) === -1 ? palettes[0] : p;
+  }
+
+  function applyPalette(name) {
+    if (name === palettes[0]) root.removeAttribute('data-palette');
+    else root.setAttribute('data-palette', name);
+    try { localStorage.setItem('pw-palette', name); } catch (e) {}
+  }
+
+  var paletteBtn = dotButton('pw-palette-btn');
+  function labelPalette() {
+    paletteBtn.setAttribute('aria-label', 'Switch colour palette (now ' + current() + ')');
+  }
+  paletteBtn.addEventListener('click', function () {
+    var next = palettes[(palettes.indexOf(current()) + 1) % palettes.length];
+    applyPalette(next);
+    labelPalette();
+    say(next);
+  });
+  labelPalette();
+
+  // ---- Yellow dot: the cat -------------------------------------------------
+  var offset = (document.querySelector('meta[name="quarto:offset"]') || {}).content || './';
+
+  var cat = document.createElement('button');
+  cat.type = 'button';
+  cat.className = 'pw-cat';
+  cat.tabIndex = -1;
+  cat.setAttribute('aria-hidden', 'true');
+  cat.setAttribute('aria-label', 'Cat (click to meow)');
+  cat.innerHTML = '<span class="pw-cat-body"><img alt="" decoding="async"></span>';
+  var catImg = cat.querySelector('img');
+
+  // The cat is 138KB of SVG, so only fetch it the first time it is wanted.
+  function loadCat() {
+    if (!catImg.getAttribute('src')) catImg.src = offset + 'assets/cat.svg';
+  }
+
+  // One click runs the whole peek in 2 seconds: up (SLIDE), stay (HOLD), down (SLIDE).
+  // SLIDE must match the 0.8s slide transitions in styles.scss.
+  var SLIDE = 800;
+  var HOLD = 400;
+  var busy = false;
+  var holdTimer;
+
+  var catBtn = dotButton('pw-cat-btn');
+  catBtn.setAttribute('aria-label', 'Let the cat peek out');
+
+  function setCat(out) {
+    root.classList.toggle('pw-cat-out', out);
+    cat.setAttribute('aria-hidden', out ? 'false' : 'true');
+    cat.tabIndex = out ? 0 : -1;
+  }
+
+  function goDown() {
+    setCat(false);
+    setTimeout(function () {
+      busy = false;
+      catBtn.removeAttribute('aria-disabled');
+    }, SLIDE + 100);
+  }
+
+  catBtn.addEventListener('pointerenter', loadCat);
+  catBtn.addEventListener('focus', loadCat);
+  catBtn.addEventListener('click', function () {
+    if (busy) return;
+    busy = true;
+    catBtn.setAttribute('aria-disabled', 'true');
+    loadCat();
+    setCat(true);
+    setTimeout(function () { say('meow!'); }, SLIDE * 0.7);
+    holdTimer = setTimeout(goDown, SLIDE + HOLD);
+  });
+  setCat(false);
+
+  // Clicking the cat makes it hop and meow, and keeps it out a little longer.
+  cat.addEventListener('click', function () {
+    cat.classList.remove('jump');
+    void cat.offsetWidth;
+    cat.classList.add('jump');
+    say('meow!');
+    clearTimeout(holdTimer);
+    holdTimer = setTimeout(goDown, HOLD * 0.7);
+  });
+  cat.addEventListener('animationend', function (e) {
+    if (e.animationName === 'cat-jump') cat.classList.remove('jump');
+  });
+
+  main.appendChild(cat);
+  main.appendChild(catBtn);
+  main.appendChild(paletteBtn);
+  main.appendChild(toast);
+})();
+</script>
