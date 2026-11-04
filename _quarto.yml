@@ -6,9 +6,9 @@ project:
 
 website:
   title: "Slidecrafting Workshop"
-  description: "A 2-hour hands-on workshop on making beautiful slides with reveal.js and Quarto"
-  site-url: "https://emilhvitfeldt.github.io/workshop-slidecrafting"
-  repo-url: https://github.com/emilhvitfeldt/workshop-slidecrafting
+  description: "A 3-hour in-person workshop at LatinR 2026 on making beautiful slides with reveal.js and Quarto"
+  site-url: "https://emilhvitfeldt.github.io/workshop-slidecrafting-latinr"
+  repo-url: https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr
   repo-actions: [edit, issue, source]
   open-graph: true
   page-navigation: true
@@ -30,7 +30,7 @@ website:
     right:
       - icon: github
         aria-label: "GitHub"
-        href: https://github.com/emilhvitfeldt/workshop-slidecrafting
+        href: https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr
   sidebar:
     style: docked
     contents:

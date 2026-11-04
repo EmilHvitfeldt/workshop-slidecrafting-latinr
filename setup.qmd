@@ -2,7 +2,7 @@
 title: "Setup"
 ---
 
-Complete these steps **before** the workshop begins.
+Complete these steps **before** the workshop begins. We are meeting in person at LatinR, and venue wifi may be slow or crowded, so please do the downloads at home or at your hotel.
 
 ## Software
 
@@ -23,7 +23,7 @@ quarto --version
 - [ ] Clone the workshop repository
 
 ```bash
-git clone https://github.com/emilhvitfeldt/workshop-slidecrafting.git
+git clone https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr.git
 ```
 
 ## Render a test slide

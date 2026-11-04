@@ -15,7 +15,7 @@ subtitle: "Putting things on the slide"
 Content flows from the top, left aligned, one thing under the next.
 
 ::: {.incremental}
-- That is a fine default, but it is an oppotunity to keep things fresh
+- That is a fine default, but it is an opportunity to keep things fresh
 - Everything in this module is a way of stepping out of it
 - Vary the layout across the deck
 :::

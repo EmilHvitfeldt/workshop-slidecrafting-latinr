@@ -8,7 +8,7 @@ subtitle: "The anatomy of a reveal.js deck"
 ::::
 
 ::::{.slide-links}
-[⛶ Fullscreen](../slides/01-quarto.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting/blob/main/slides/01-quarto.qmd){target="_blank"}
+[⛶ Fullscreen](../slides/01-quarto.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr/blob/main/slides/01-quarto.qmd){target="_blank"}
 ::::
 
 ## Learning objectives

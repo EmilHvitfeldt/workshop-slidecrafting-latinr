@@ -6,13 +6,18 @@ author: "Emil Hvitfeldt"
 
 ## Welcome
 
-Welcome to the **Slidecrafting** workshop! Over the next two hours we will learn how to
-craft functional and aesthetically pleasing slides using [Quarto](https://quarto.org/)
-reveal.js presentations.
+Welcome to the **Slidecrafting** workshop at [LatinR 2026](https://latinr.org/)! Over the next three hours, in person, we will learn how to craft functional and aesthetically pleasing slides using [Quarto](https://quarto.org/) reveal.js presentations.
 
 ::: {.callout-note}
 This workshop is a hands-on companion to the [Slidecrafting book](https://slidecrafting-book.com).
 :::
+
+## Logistics
+
+- **When:** Wednesday 11 November 2026, morning tutorial block (8:30 to 12:00)
+- **Where:** Universidad de Antioquia, Medellín, Colombia (check the [LatinR site](https://latinr.org/) for your room)
+- **Language:** English
+- **Bring:** a laptop with the [setup](setup.qmd) steps done, and its charger
 
 ## What you will learn
 
@@ -24,10 +29,14 @@ This workshop is a hands-on companion to the [Slidecrafting book](https://slidec
 
 ## Before you arrive
 
-Please complete the [setup](setup.qmd) steps so you are ready to go.
+Please complete the [setup](setup.qmd) steps **before** the workshop. Conference wifi can be slow when a room full of people downloads at once, so install and clone ahead of time.
 
 ## Schedule
 
 See the [schedule](schedule.qmd) for the full run of show.
 
-<!-- TODO: add author bio, logistics, code of conduct link -->
+## Code of conduct
+
+This workshop follows the [LatinR code of conduct](https://latinr.org/sobre/coc/index.html).
+
+<!-- TODO: add author bio -->

@@ -8,7 +8,7 @@ subtitle: "Putting things on the slide"
 ::::
 
 ::::{.slide-links}
-[⛶ Fullscreen](../slides/03-content.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting/blob/main/slides/03-content.qmd){target="_blank"}
+[⛶ Fullscreen](../slides/03-content.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr/blob/main/slides/03-content.qmd){target="_blank"}
 ::::
 
 ## Learning objectives

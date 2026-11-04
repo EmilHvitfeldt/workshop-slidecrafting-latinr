@@ -8,7 +8,7 @@ subtitle: "Colors, fonts, sizes & SCSS"
 ::::
 
 ::::{.slide-links}
-[⛶ Fullscreen](../slides/02-theming.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting/blob/main/slides/02-theming.qmd){target="_blank"}
+[⛶ Fullscreen](../slides/02-theming.html){target="_blank"} [⟨∕⟩ Source](https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr/blob/main/slides/02-theming.qmd){target="_blank"}
 ::::
 
 ## Learning objectives

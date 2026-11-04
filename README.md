@@ -1,6 +1,6 @@
 # Slidecrafting Workshop
 
-A 2-hour hands-on workshop on making beautiful slides with reveal.js and Quarto, built as a Quarto website.
+A 3-hour in-person hands-on workshop on making beautiful slides with reveal.js and Quarto, given at [LatinR 2026](https://latinr.org/) (Medellín, Colombia, 11 November 2026). Built as a Quarto website.
 
 Companion to the [Slidecrafting book](https://slidecrafting-book.com).
 

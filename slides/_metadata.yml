@@ -8,7 +8,7 @@ format:
     # `#` section slides nest `##` slides into vertical stacks; linear
     # navigation keeps the deck one-dimensional (left/right only).
     navigation-mode: linear
-    footer: "Slidecrafting Workshop"
+    footer: "Slidecrafting Workshop · LatinR 2026"
     include-after-body: advance-embedded.html
 
 revealjs-plugins:

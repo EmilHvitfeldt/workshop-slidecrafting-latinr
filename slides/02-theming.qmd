@@ -75,7 +75,7 @@ This does nothing. Reveal already has its own rule for links, and it is more spe
 ## A language that compiles to CSS
 
 While CSS is very powerful, it can also feel a little too wordy and less expressive.
-So we use the compiled langauge Sass.
+So we use the compiled language Sass.
 
 ::: {.incremental}
 - You write Sass
