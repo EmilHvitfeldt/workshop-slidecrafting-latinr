@@ -1,10 +1,92 @@
 [
   {
-    "objectID": "slides/examples/hl-simple.html#highlight-and-stay",
-    "href": "slides/examples/hl-simple.html#highlight-and-stay",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "A 3-hour in-person workshop (180 minutes), including one break. It runs in the Wednesday 11 November morning tutorial block at LatinR 2026 (8:30 to 12:00), which leaves a little slack at the end for questions and overruns.\nEach module ends with an exercise. Because we are in the same room, those are done at your laptop with the instructor and your neighbours close by, so ask for help or compare screens as you go.\n\nWorkshop schedule\n\n\nTime\nDuration\nModule\nTopic\nSlides\n\n\n\n\n0:00\n10 min\n—\nWelcome and setup check\n—\n\n\n0:10\n30 min\n01\nWhat is Quarto? The anatomy of a reveal.js deck\ndeck\n\n\n0:40\n40 min\n02\nTheming: colors, fonts, sizes, SCSS\ndeck\n\n\n1:20\n10 min\n—\nBreak\n—\n\n\n1:30\n40 min\n03\nContent: elements & layout\ndeck\n\n\n2:10\n30 min\n04\nInteractivity: fragments & auto-animate\ndeck\n\n\n2:40\n20 min\n05\nExtensions & wrap-up\ndeck",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "slides/examples/ext-tegaki.html#handwriting",
+    "href": "slides/examples/ext-tegaki.html#handwriting",
     "title": "Slidecrafting Workshop",
-    "section": "Highlight and stay",
-    "text": "Highlight and stay\nA fragment does not have to appear. It can already be on screen and simply pick up a highlight when its turn comes."
+    "section": "Handwriting",
+    "text": "Handwriting"
+  },
+  {
+    "objectID": "slides/examples/scroll-output.html#a-long-output",
+    "href": "slides/examples/scroll-output.html#a-long-output",
+    "title": "Slidecrafting Workshop",
+    "section": "A long output",
+    "text": "A long output\n\n#&gt; # A tibble: 40 x 3\n#&gt;    island       species     bill_length_mm\n#&gt;    &lt;fct&gt;        &lt;fct&gt;                &lt;dbl&gt;\n#&gt;  1 Torgersen    Adelie                39.1\n#&gt;  2 Torgersen    Adelie                39.5\n#&gt;  3 Torgersen    Adelie                40.3\n#&gt;  4 Torgersen    Adelie                36.7\n#&gt;  5 Torgersen    Adelie                39.3\n#&gt;  6 Torgersen    Adelie                38.9\n#&gt;  7 Torgersen    Adelie                39.2\n#&gt;  8 Torgersen    Adelie                34.1\n#&gt;  9 Torgersen    Adelie                42\n#&gt; 10 Torgersen    Adelie                37.8\n#&gt; 11 Biscoe       Adelie                37.8\n#&gt; 12 Biscoe       Adelie                41.1\n#&gt; 13 Biscoe       Adelie                38.6\n#&gt; 14 Biscoe       Adelie                34.6\n#&gt; 15 Biscoe       Adelie                36.6\n#&gt; 16 Biscoe       Adelie                38.7\n#&gt; 17 Biscoe       Adelie                42.5\n#&gt; 18 Biscoe       Adelie                34.4\n#&gt; 19 Biscoe       Adelie                46\n#&gt; 20 Dream        Adelie                37.8\n#&gt; 21 Dream        Chinstrap             46.5\n#&gt; 22 Dream        Chinstrap             50\n#&gt; 23 Dream        Chinstrap             51.3\n#&gt; 24 Dream        Chinstrap             45.4\n#&gt; 25 Dream        Chinstrap             52.7\n#&gt; 26 Dream        Chinstrap             45.2\n#&gt; 27 Dream        Chinstrap             46.1\n#&gt; 28 Dream        Chinstrap             51.3\n#&gt; 29 Dream        Chinstrap             46\n#&gt; 30 Dream        Chinstrap             51.3\n#&gt; 31 Biscoe       Gentoo                46.1\n#&gt; 32 Biscoe       Gentoo                50\n#&gt; 33 Biscoe       Gentoo                48.7\n#&gt; 34 Biscoe       Gentoo                50\n#&gt; 35 Biscoe       Gentoo                47.6\n#&gt; 36 Biscoe       Gentoo                46.5\n#&gt; 37 Biscoe       Gentoo                45.4\n#&gt; 38 Biscoe       Gentoo                46.7\n#&gt; 39 Biscoe       Gentoo                43.3\n#&gt; 40 Biscoe       Gentoo                46.8"
+  },
+  {
+    "objectID": "slides/examples/hl-colors.html#four-highlighters",
+    "href": "slides/examples/hl-colors.html#four-highlighters",
+    "title": "Slidecrafting Workshop",
+    "section": "Four highlighters",
+    "text": "Four highlighters\nOne loop, four classes: orange, yellow, brown, and pink.\nThe current one is the strongest, and the ones behind it settle back a shade."
+  },
+  {
+    "objectID": "slides/examples/fragment-classes.html#more-than-appearing",
+    "href": "slides/examples/fragment-classes.html#more-than-appearing",
+    "title": "Slidecrafting Workshop",
+    "section": "More than appearing",
+    "text": "More than appearing\n\nfade-in\n\n\nhighlight-red\n\n\ngrow\n\n\nsemi-fade-out"
+  },
+  {
+    "objectID": "slides/examples/fragment-classes.html#out-of-order",
+    "href": "slides/examples/fragment-classes.html#out-of-order",
+    "title": "Slidecrafting Workshop",
+    "section": "Out of order",
+    "text": "Out of order\n\nshown third\n\n\nshown first\n\n\nshown second"
+  },
+  {
+    "objectID": "slides/examples/paper-card.html#colored",
+    "href": "slides/examples/paper-card.html#colored",
+    "title": "Paper card",
+    "section": "My slide",
+    "text": "My slide\nContent goes here, cleanly inside the card."
+  },
+  {
+    "objectID": "slides/examples/paper-card.html#photo",
+    "href": "slides/examples/paper-card.html#photo",
+    "title": "Paper card",
+    "section": "My slide",
+    "text": "My slide\nContent goes here, cleanly inside the card."
+  },
+  {
+    "objectID": "slides/examples/fonts.html#a-slide-in-the-making",
+    "href": "slides/examples/fonts.html#a-slide-in-the-making",
+    "title": "My first deck",
+    "section": "A slide in the making",
+    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
+  },
+  {
+    "objectID": "slides/examples/yaml-options.html#first-slide",
+    "href": "slides/examples/yaml-options.html#first-slide",
+    "title": "My first deck",
+    "section": "First slide",
+    "text": "First slide\nSome content, with a bold word.\n\none bullet\nanother bullet"
+  },
+  {
+    "objectID": "slides/examples/yaml-options.html#second-slide",
+    "href": "slides/examples/yaml-options.html#second-slide",
+    "title": "My first deck",
+    "section": "Second slide",
+    "text": "Second slide\nMore content."
+  },
+  {
+    "objectID": "slides/examples/columns.html#two-columns",
+    "href": "slides/examples/columns.html#two-columns",
+    "title": "Columns",
+    "section": "Two columns",
+    "text": "Two columns\n\n\nLeft side.\n\nRight side."
   },
   {
     "objectID": "slides/examples/headings.html#a-titled-slide",
@@ -28,109 +110,25 @@
     "text": "A slide in part two\nEven more content."
   },
   {
-    "objectID": "slides/examples/highlight-last.html#highlight-the-current-item",
-    "href": "slides/examples/highlight-last.html#highlight-the-current-item",
-    "title": "Slidecrafting Workshop",
-    "section": "Highlight the current item",
-    "text": "Highlight the current item\n\n\nfirst\n\n\n\n\nsecond\n\n\n\n\nthird"
+    "objectID": "slides/examples/fit-text.html#one-line",
+    "href": "slides/examples/fit-text.html#one-line",
+    "title": "Fit text",
+    "section": "",
+    "text": "This fits perfectly!"
   },
   {
-    "objectID": "slides/examples/plot-sizing.html#default",
-    "href": "slides/examples/plot-sizing.html#default",
-    "title": "Plot sizing",
-    "section": "Default",
-    "text": "Default"
+    "objectID": "slides/examples/fit-text.html#one-block",
+    "href": "slides/examples/fit-text.html#one-block",
+    "title": "Fit text",
+    "section": "",
+    "text": "This fits perfectly!\nOn two lines"
   },
   {
-    "objectID": "slides/examples/plot-sizing.html#tuned",
-    "href": "slides/examples/plot-sizing.html#tuned",
-    "title": "Plot sizing",
-    "section": "Tuned",
-    "text": "Tuned"
-  },
-  {
-    "objectID": "slides/examples/hl-colors.html#four-highlighters",
-    "href": "slides/examples/hl-colors.html#four-highlighters",
-    "title": "Slidecrafting Workshop",
-    "section": "Four highlighters",
-    "text": "Four highlighters\nOne loop, four classes: orange, yellow, brown, and pink.\nThe current one is the strongest, and the ones behind it settle back a shade."
-  },
-  {
-    "objectID": "slides/examples/codewindow.html#some-code",
-    "href": "slides/examples/codewindow.html#some-code",
-    "title": "My deck",
-    "section": "Some code",
-    "text": "Some code\n\nanalysis.R\nmtcars |&gt;\n  group_by(cyl) |&gt;\n  summarize(mean_mpg = mean(mpg))"
-  },
-  {
-    "objectID": "slides/examples/manual-code.html#hand-styled-code",
-    "href": "slides/examples/manual-code.html#hand-styled-code",
-    "title": "Manual code",
-    "section": "Hand-styled code",
-    "text": "Hand-styled code\n\nlibrary(ggplot2)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) +\n  geom_point() +\n  geom_smooth(method = “lm”, formula = “y ~ x”)"
-  },
-  {
-    "objectID": "slides/examples/ext-timeline.html#how-it-went",
-    "href": "slides/examples/ext-timeline.html#how-it-went",
-    "title": "Slidecrafting Workshop",
-    "section": "How it went",
-    "text": "How it went\n\n\nProject Started\n\n\nFirst Release\n\n\nVersion 2.0"
-  },
-  {
-    "objectID": "slides/examples/ext-checklist.html#where-we-got-to",
-    "href": "slides/examples/ext-checklist.html#where-we-got-to",
-    "title": "Slidecrafting Workshop",
-    "section": "Where we got to",
-    "text": "Where we got to\n\n   Ship the feature\n   Missed the deadline\n   Tests still running"
-  },
-  {
-    "objectID": "slides/examples/scroll-output.html#a-long-output",
-    "href": "slides/examples/scroll-output.html#a-long-output",
-    "title": "Slidecrafting Workshop",
-    "section": "A long output",
-    "text": "A long output\n\n#&gt; # A tibble: 40 x 3\n#&gt;    island       species     bill_length_mm\n#&gt;    &lt;fct&gt;        &lt;fct&gt;                &lt;dbl&gt;\n#&gt;  1 Torgersen    Adelie                39.1\n#&gt;  2 Torgersen    Adelie                39.5\n#&gt;  3 Torgersen    Adelie                40.3\n#&gt;  4 Torgersen    Adelie                36.7\n#&gt;  5 Torgersen    Adelie                39.3\n#&gt;  6 Torgersen    Adelie                38.9\n#&gt;  7 Torgersen    Adelie                39.2\n#&gt;  8 Torgersen    Adelie                34.1\n#&gt;  9 Torgersen    Adelie                42\n#&gt; 10 Torgersen    Adelie                37.8\n#&gt; 11 Biscoe       Adelie                37.8\n#&gt; 12 Biscoe       Adelie                41.1\n#&gt; 13 Biscoe       Adelie                38.6\n#&gt; 14 Biscoe       Adelie                34.6\n#&gt; 15 Biscoe       Adelie                36.6\n#&gt; 16 Biscoe       Adelie                38.7\n#&gt; 17 Biscoe       Adelie                42.5\n#&gt; 18 Biscoe       Adelie                34.4\n#&gt; 19 Biscoe       Adelie                46\n#&gt; 20 Dream        Adelie                37.8\n#&gt; 21 Dream        Chinstrap             46.5\n#&gt; 22 Dream        Chinstrap             50\n#&gt; 23 Dream        Chinstrap             51.3\n#&gt; 24 Dream        Chinstrap             45.4\n#&gt; 25 Dream        Chinstrap             52.7\n#&gt; 26 Dream        Chinstrap             45.2\n#&gt; 27 Dream        Chinstrap             46.1\n#&gt; 28 Dream        Chinstrap             51.3\n#&gt; 29 Dream        Chinstrap             46\n#&gt; 30 Dream        Chinstrap             51.3\n#&gt; 31 Biscoe       Gentoo                46.1\n#&gt; 32 Biscoe       Gentoo                50\n#&gt; 33 Biscoe       Gentoo                48.7\n#&gt; 34 Biscoe       Gentoo                50\n#&gt; 35 Biscoe       Gentoo                47.6\n#&gt; 36 Biscoe       Gentoo                46.5\n#&gt; 37 Biscoe       Gentoo                45.4\n#&gt; 38 Biscoe       Gentoo                46.7\n#&gt; 39 Biscoe       Gentoo                43.3\n#&gt; 40 Biscoe       Gentoo                46.8"
-  },
-  {
-    "objectID": "slides/examples/ext-roughnotation.html#annotations",
-    "href": "slides/examples/ext-roughnotation.html#annotations",
-    "title": "Slidecrafting Workshop",
-    "section": "Annotations",
-    "text": "Annotations\nHighlight me!\nunderlined phrase"
-  },
-  {
-    "objectID": "slides/examples/yaml-options.html#first-slide",
-    "href": "slides/examples/yaml-options.html#first-slide",
-    "title": "My first deck",
-    "section": "First slide",
-    "text": "First slide\nSome content, with a bold word.\n\none bullet\nanother bullet"
-  },
-  {
-    "objectID": "slides/examples/yaml-options.html#second-slide",
-    "href": "slides/examples/yaml-options.html#second-slide",
-    "title": "My first deck",
-    "section": "Second slide",
-    "text": "Second slide\nMore content."
-  },
-  {
-    "objectID": "slides/examples/ext-editable.html#move-me-around",
-    "href": "slides/examples/ext-editable.html#move-me-around",
-    "title": "Slidecrafting Workshop",
-    "section": "Move me around",
-    "text": "Move me around\nDrag this text, resize it, or retype it."
-  },
-  {
-    "objectID": "slides/examples/classes.html#a-slide-in-the-making",
-    "href": "slides/examples/classes.html#a-slide-in-the-making",
-    "title": "My first deck",
-    "section": "A slide in the making",
-    "text": "A slide in the making\nBody text, and a link in the middle of it.\nThe important part of the sentence.\n\none bullet\nanother bullet"
-  },
-  {
-    "objectID": "slides/examples/ext-tegaki.html#handwriting",
-    "href": "slides/examples/ext-tegaki.html#handwriting",
-    "title": "Slidecrafting Workshop",
-    "section": "Handwriting",
-    "text": "Handwriting"
+    "objectID": "slides/examples/fit-text.html#two-blocks",
+    "href": "slides/examples/fit-text.html#two-blocks",
+    "title": "Fit text",
+    "section": "",
+    "text": "This fits perfectly!\n\n\nOn two lines"
   },
   {
     "objectID": "slides/examples/columns-widths.html#uneven-columns",
@@ -161,6 +159,69 @@
     "text": "An empty column\n\n\n\n\nOnly right side"
   },
   {
+    "objectID": "slides/examples/ext-auto-agenda.html#a-slide",
+    "href": "slides/examples/ext-auto-agenda.html#a-slide",
+    "title": "Slidecrafting Workshop",
+    "section": "A slide",
+    "text": "A slide"
+  },
+  {
+    "objectID": "slides/examples/ext-auto-agenda.html#another-slide",
+    "href": "slides/examples/ext-auto-agenda.html#another-slide",
+    "title": "Slidecrafting Workshop",
+    "section": "Another slide",
+    "text": "Another slide"
+  },
+  {
+    "objectID": "slides/examples/ext-auto-agenda.html#a-third-slide",
+    "href": "slides/examples/ext-auto-agenda.html#a-third-slide",
+    "title": "Slidecrafting Workshop",
+    "section": "A third slide",
+    "text": "A third slide"
+  },
+  {
+    "objectID": "slides/examples/ext-shapes.html#shapes",
+    "href": "slides/examples/ext-shapes.html#shapes",
+    "title": "Slidecrafting Workshop",
+    "section": "Shapes",
+    "text": "Shapes\n\nHello"
+  },
+  {
+    "objectID": "slides/examples/incremental.html#revealed-one-at-a-time",
+    "href": "slides/examples/incremental.html#revealed-one-at-a-time",
+    "title": "Slidecrafting Workshop",
+    "section": "Revealed one at a time",
+    "text": "Revealed one at a time\n\nfirst\nsecond\nthird"
+  },
+  {
+    "objectID": "slides/examples/ext-chatbubbles.html#the-invite",
+    "href": "slides/examples/ext-chatbubbles.html#the-invite",
+    "title": "Slidecrafting Workshop",
+    "section": "The invite",
+    "text": "The invite\n\n\nHey, are you coming tonight?\n\n\nYeah! What time does it start?\n\n\nDoors open at 7"
+  },
+  {
+    "objectID": "slides/examples/codewindow.html#some-code",
+    "href": "slides/examples/codewindow.html#some-code",
+    "title": "My deck",
+    "section": "Some code",
+    "text": "Some code\n\nanalysis.R\nmtcars |&gt;\n  group_by(cyl) |&gt;\n  summarize(mean_mpg = mean(mpg))"
+  },
+  {
+    "objectID": "slides/examples/auto-animate-basics.html#a-single-element",
+    "href": "slides/examples/auto-animate-basics.html#a-single-element",
+    "title": "Slidecrafting Workshop",
+    "section": "A single element",
+    "text": "A single element"
+  },
+  {
+    "objectID": "slides/examples/auto-animate-basics.html#the-same-data-id-changed",
+    "href": "slides/examples/auto-animate-basics.html#the-same-data-id-changed",
+    "title": "Slidecrafting Workshop",
+    "section": "The same data-id, changed",
+    "text": "The same data-id, changed"
+  },
+  {
     "objectID": "slides/examples/plot-background.html#opaque",
     "href": "slides/examples/plot-background.html#opaque",
     "title": "Plot backgrounds",
@@ -173,20 +234,6 @@
     "title": "Plot backgrounds",
     "section": "Transparent plot",
     "text": "Transparent plot"
-  },
-  {
-    "objectID": "slides/examples/paper-card.html#colored",
-    "href": "slides/examples/paper-card.html#colored",
-    "title": "Paper card",
-    "section": "My slide",
-    "text": "My slide\nContent goes here, cleanly inside the card."
-  },
-  {
-    "objectID": "slides/examples/paper-card.html#photo",
-    "href": "slides/examples/paper-card.html#photo",
-    "title": "Paper card",
-    "section": "My slide",
-    "text": "My slide\nContent goes here, cleanly inside the card."
   },
   {
     "objectID": "slides/03-content.html#objectives",
@@ -630,362 +677,6 @@
     "text": "Exercise\n\nAdd styles.scss to the preview deck and wire up theme:\nPick two Google Fonts, one for headings, one for body\nSet the 2 color variables, then check the contrast\nBump $presentation-font-size-root until it feels too big, then leave it there"
   },
   {
-    "objectID": "slides/01-quarto.html#objectives",
-    "href": "slides/01-quarto.html#objectives",
-    "title": "What is Quarto?",
-    "section": "Objectives",
-    "text": "Objectives\n\nUnderstand the structure of a .qmd reveal.js file\nKnow how slides and section slides are created\nRead and set common YAML options\nUse divs and spans to attach attributes to content"
-  },
-  {
-    "objectID": "slides/01-quarto.html#this-workshop-has-a-book",
-    "href": "slides/01-quarto.html#this-workshop-has-a-book",
-    "title": "What is Quarto?",
-    "section": "This workshop has a book",
-    "text": "This workshop has a book\nslidecrafting-book.com\nEverything today is in there, in more detail."
-  },
-  {
-    "objectID": "slides/01-quarto.html#reproducible",
-    "href": "slides/01-quarto.html#reproducible",
-    "title": "What is Quarto?",
-    "section": "Reproducible",
-    "text": "Reproducible\nWe get all the goodness from quarto,\nCode cells run at render time:\n\nmy-deck.qmd\n```{r}\n#| echo: false\nplot(1:10)\n```\n\nFigures and tables regenerate from the data instead of being pasted screenshots, HUGE when new data comes in."
-  },
-  {
-    "objectID": "slides/01-quarto.html#html-native",
-    "href": "slides/01-quarto.html#html-native",
-    "title": "What is Quarto?",
-    "section": "HTML-native",
-    "text": "HTML-native\nA rendered deck is a web page.\nAnimation, video, iframes, links, and anything else the web can do."
-  },
-  {
-    "objectID": "slides/01-quarto.html#and-when-someone-insists",
-    "href": "slides/01-quarto.html#and-when-someone-insists",
-    "title": "What is Quarto?",
-    "section": "And when someone insists",
-    "text": "And when someone insists\nThe same source renders to PDF or PowerPoint.\nExcept for html specific things like animation and interactivity."
-  },
-  {
-    "objectID": "slides/01-quarto.html#a-minimal-deck",
-    "href": "slides/01-quarto.html#a-minimal-deck",
-    "title": "What is Quarto?",
-    "section": "A minimal deck",
-    "text": "A minimal deck\n\n\nmy-deck.qmd\n---\ntitle: \"My first deck\"\nauthor: \"Your Name\"\nformat: revealjs\n---\n\n## First slide\n\nSome content, with a **bold** word.\n\n- one bullet\n- another bullet\n\n## Second slide\n\n```{r}\n#| echo: true\nsummary(cars$speed)\n```"
-  },
-  {
-    "objectID": "slides/01-quarto.html#render-it",
-    "href": "slides/01-quarto.html#render-it",
-    "title": "What is Quarto?",
-    "section": "Render it",
-    "text": "Render it\n\nTerminal\nquarto render my-deck.qmd\n\nProduces my-deck.html.\nIf you are in a repo with index.qmd only then quarto render will find it"
-  },
-  {
-    "objectID": "slides/01-quarto.html#better-preview-it",
-    "href": "slides/01-quarto.html#better-preview-it",
-    "title": "What is Quarto?",
-    "section": "Better: preview it",
-    "text": "Better: preview it\n\nTerminal\nquarto preview my-deck.qmd\n\nRe-renders and refreshes the browser on every save.\nRStudio and Positron will help you here."
-  },
-  {
-    "objectID": "slides/01-quarto.html#presenting-shortcuts",
-    "href": "slides/01-quarto.html#presenting-shortcuts",
-    "title": "What is Quarto?",
-    "section": "Presenting shortcuts",
-    "text": "Presenting shortcuts\n\n\n\nKey\nAction\n\n\n\n\n→ / ←\nnext / previous slide\n\n\nf\nfullscreen\n\n\ns\nspeaker view\n\n\no\noverview of all slides\n\n\n?\nall shortcuts"
-  },
-  {
-    "objectID": "slides/01-quarto.html#the-yaml-header-1",
-    "href": "slides/01-quarto.html#the-yaml-header-1",
-    "title": "What is Quarto?",
-    "section": "The YAML header",
-    "text": "The YAML header\n\n\nmy-deck.qmd\n---\ntitle: \"My first deck\"\nsubtitle: \"With some options\"\nauthor: \"Your Name\"\ndate: today\nformat:\n  revealjs:\n    slide-number: true\n    progress: true\n    center: false\n    incremental: false\n    footer: \"My conference talk\"\n---\n\n\n\n\n\n\n \n\nhttps://quarto.org/docs/reference/formats/presentations/revealjs.html"
-  },
-  {
-    "objectID": "slides/01-quarto.html#options-worth-knowing-on-day-one",
-    "href": "slides/01-quarto.html#options-worth-knowing-on-day-one",
-    "title": "What is Quarto?",
-    "section": "Options worth knowing on day one",
-    "text": "Options worth knowing on day one\n\ntheme a built-in theme, your own SCSS, or both: [default, styles.scss]\nwidth / height the canvas you design against, 1280 x 720\necho show code or not; false by default, turn it on where it earns the space\ncode-line-numbers false to hide code line numbers\npagetitle what the browser tab says\n\n\nhttps://quarto.org/docs/reference/formats/presentations/revealjs.html"
-  },
-  {
-    "objectID": "slides/01-quarto.html#structure-comes-from-headings",
-    "href": "slides/01-quarto.html#structure-comes-from-headings",
-    "title": "What is Quarto?",
-    "section": "Structure comes from headings",
-    "text": "Structure comes from headings\n\n## a new slide, heading becomes the title\n# a section slide, a title-only divider"
-  },
-  {
-    "objectID": "slides/01-quarto.html#structure-comes-from-headings-1",
-    "href": "slides/01-quarto.html#structure-comes-from-headings-1",
-    "title": "What is Quarto?",
-    "section": "Structure comes from headings",
-    "text": "Structure comes from headings\n\n\nmy-deck.qmd\n# Part one\n\n## A titled slide\n\nContent.\n\n## Another titled slide\n\nMore content.\n\n# Part two\n\n## A slide in part two\n\nEven more content."
-  },
-  {
-    "objectID": "slides/01-quarto.html#divs-and-spans",
-    "href": "slides/01-quarto.html#divs-and-spans",
-    "title": "What is Quarto?",
-    "section": "Divs and spans",
-    "text": "Divs and spans\nMarkdown alone cannot say “make this part special”. Quarto adds two ways to wrap content and attach attributes to it.\n\na div wraps one or more blocks: paragraphs, lists, images, code\na span wraps a piece of text inside a paragraph\n\n\nAlmost every feature in this workshop is one of these two with a different class on it."
-  },
-  {
-    "objectID": "slides/01-quarto.html#the-syntax",
-    "href": "slides/01-quarto.html#the-syntax",
-    "title": "What is Quarto?",
-    "section": "The syntax",
-    "text": "The syntax\n\n\nDiv\n\nmy-deck.qmd\n::: {.center}\nEverything here\nis inside the div.\n:::\n\nOpening fence, attributes, content, closing fence.\n\nSpan\n\nmy-deck.qmd\nThe [important part]{.highlight}\nof the sentence.\n\nText in [], attributes in {}, no space between them."
-  },
-  {
-    "objectID": "slides/01-quarto.html#what-goes-in-the-braces",
-    "href": "slides/01-quarto.html#what-goes-in-the-braces",
-    "title": "What is Quarto?",
-    "section": "What goes in the braces",
-    "text": "What goes in the braces\n\nmy-deck.qmd\n::: {#summary .smaller .fragment style=\"color: red;\"}\nContent.\n:::\n\n\n.name a class, the usual way to reach a div from CSS\n#name an id, unique on the page\nkey=\"value\" any other attribute, style= included\n\n\nOrder does not matter, and you can use as many as you like."
-  },
-  {
-    "objectID": "slides/01-quarto.html#nesting-count-your-colons",
-    "href": "slides/01-quarto.html#nesting-count-your-colons",
-    "title": "What is Quarto?",
-    "section": "Nesting: count your colons",
-    "text": "Nesting: count your colons\n\n\n\nWorks\n:::: {.outer}\n\n::: {.inner}\nContent.\n:::\n\n::::\n\n\n\nBreaks\n::: {.outer}\n\n::: {.inner}\nContent.\n:::\n\n:::\n\n\n\nThe outer fence needs more colons than the inner one, otherwise Pandoc closes the wrong div. Three is only the minimum."
-  },
-  {
-    "objectID": "slides/01-quarto.html#divs-and-spans-in-action",
-    "href": "slides/01-quarto.html#divs-and-spans-in-action",
-    "title": "What is Quarto?",
-    "section": "Divs and spans in action",
-    "text": "Divs and spans in action\n\n\nmy-deck.qmd\n## Highlights\n\nSome [red text]{style=\"color: #b22222;\"} in a sentence.\n\n::: {.smaller}\nThis whole block is smaller.\n:::\n\n::: {style=\"text-align: center;\"}\nAnd this one is centered.\n:::"
-  },
-  {
-    "objectID": "slides/01-quarto.html#columns",
-    "href": "slides/01-quarto.html#columns",
-    "title": "What is Quarto?",
-    "section": "Columns",
-    "text": "Columns\nColumns are just nested divs: a .columns div holding .column divs.\n\n\nmy-deck.qmd\n## Two columns\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\nLeft side.\n:::\n\n::: {.column width=\"50%\"}\nRight side.\n:::\n\n::::"
-  },
-  {
-    "objectID": "slides/01-quarto.html#exercise",
-    "href": "slides/01-quarto.html#exercise",
-    "title": "What is Quarto?",
-    "section": "Exercise",
-    "text": "Exercise\n\nCreate my-deck.qmd with format: revealjs\nAdd a title slide, one # section slide, and two ## slides\nquarto preview my-deck.qmd, then press o\nDeliberately overfill a slide: five bullets, each a full sentence. Look at it. Then split it so each slide carries one idea."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Slidecrafting Workshop",
-    "section": "",
-    "text": "Welcome to the Slidecrafting workshop at LatinR 2026! Over the next three hours, in person, we will learn how to craft functional and aesthetically pleasing slides using Quarto reveal.js presentations.\n\n\n\n\n\n\nNote\n\n\n\nThis workshop is a hands-on companion to the Slidecrafting book.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Slidecrafting Workshop",
-    "section": "",
-    "text": "Welcome to the Slidecrafting workshop at LatinR 2026! Over the next three hours, in person, we will learn how to craft functional and aesthetically pleasing slides using Quarto reveal.js presentations.\n\n\n\n\n\n\nNote\n\n\n\nThis workshop is a hands-on companion to the Slidecrafting book.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#logistics",
-    "href": "index.html#logistics",
-    "title": "Slidecrafting Workshop",
-    "section": "Logistics",
-    "text": "Logistics\n\nWhen: Wednesday 11 November 2026, morning tutorial block (8:30 to 12:00)\nWhere: Universidad de Antioquia, Medellín, Colombia (check the LatinR site for your room)\nLanguage: English\nBring: a laptop with the setup steps done, and its charger",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#what-you-will-learn",
-    "href": "index.html#what-you-will-learn",
-    "title": "Slidecrafting Workshop",
-    "section": "What you will learn",
-    "text": "What you will learn\n\nHow a reveal.js .qmd file is put together, and the YAML options worth knowing\nHow to theme slides with sass variables for fonts, colors, and sizes\nHow to position elements on a slide and modify the standard ones\nHow to use fragments, write your own, and match elements with auto-animate\nHow to install and use Quarto reveal.js extensions",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#before-you-arrive",
-    "href": "index.html#before-you-arrive",
-    "title": "Slidecrafting Workshop",
-    "section": "Before you arrive",
-    "text": "Before you arrive\nPlease complete the setup steps before the workshop. Conference wifi can be slow when a room full of people downloads at once, so install and clone ahead of time.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Slidecrafting Workshop",
-    "section": "Schedule",
-    "text": "Schedule\nSee the schedule for the full run of show.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "index.html#code-of-conduct",
-    "href": "index.html#code-of-conduct",
-    "title": "Slidecrafting Workshop",
-    "section": "Code of conduct",
-    "text": "Code of conduct\nThis workshop follows the LatinR code of conduct.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Slidecrafting Workshop"
-    ]
-  },
-  {
-    "objectID": "materials/05-extensions.html#learning-objectives",
-    "href": "materials/05-extensions.html#learning-objectives",
-    "title": "05 · Extensions & wrap-up",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nInstall and use a Quarto reveal.js extension\nKnow where to find more extensions\nLeave with next steps and resources",
-    "crumbs": [
-      "Home",
-      "Materials",
-      "05 · Extensions & wrap-up"
-    ]
-  },
-  {
-    "objectID": "materials/04-interactivity.html#learning-objectives",
-    "href": "materials/04-interactivity.html#learning-objectives",
-    "title": "04 · Interactivity",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nWhat are fragments and how do we use them\nMaking our own fragments\nMatch elements across slides with auto-animate",
-    "crumbs": [
-      "Home",
-      "Materials",
-      "04 · Interactivity"
-    ]
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "A 3-hour in-person workshop (180 minutes), including one break. It runs in the Wednesday 11 November morning tutorial block at LatinR 2026 (8:30 to 12:00), which leaves a little slack at the end for questions and overruns.\nEach module ends with an exercise. Because we are in the same room, those are done at your laptop with the instructor and your neighbours close by, so ask for help or compare screens as you go.\n\nWorkshop schedule\n\n\nTime\nDuration\nModule\nTopic\nSlides\n\n\n\n\n0:00\n10 min\n—\nWelcome and setup check\n—\n\n\n0:10\n30 min\n01\nWhat is Quarto? The anatomy of a reveal.js deck\ndeck\n\n\n0:40\n40 min\n02\nTheming: colors, fonts, sizes, SCSS\ndeck\n\n\n1:20\n10 min\n—\nBreak\n—\n\n\n1:30\n40 min\n03\nContent: elements & layout\ndeck\n\n\n2:10\n30 min\n04\nInteractivity: fragments & auto-animate\ndeck\n\n\n2:40\n20 min\n05\nExtensions & wrap-up\ndeck",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "materials/01-quarto.html#learning-objectives",
-    "href": "materials/01-quarto.html#learning-objectives",
-    "title": "01 · What is Quarto?",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nUnderstand the structure of a .qmd reveal.js file\nKnow how slides and section slides are created\nRead and set common YAML options",
-    "crumbs": [
-      "Home",
-      "Materials",
-      "01 · What is Quarto?"
-    ]
-  },
-  {
-    "objectID": "materials/02-theming.html#learning-objectives",
-    "href": "materials/02-theming.html#learning-objectives",
-    "title": "02 · Theming",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nKnow what an SCSS file is and how to use it\nSet fonts, colors, and sizes with sass variables\nKnow when to drop down to CSS rules",
-    "crumbs": [
-      "Home",
-      "Materials",
-      "02 · Theming"
-    ]
-  },
-  {
-    "objectID": "materials/03-content.html#learning-objectives",
-    "href": "materials/03-content.html#learning-objectives",
-    "title": "03 · Content & layout",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nHow we can position elements on the slides\nModify standard elements",
-    "crumbs": [
-      "Home",
-      "Materials",
-      "03 · Content & layout"
-    ]
-  },
-  {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Setup",
-    "section": "",
-    "text": "Complete these steps before the workshop begins. We are meeting in person at LatinR, and venue wifi may be slow or crowded, so please do the downloads at home or at your hotel.",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#software",
-    "href": "setup.html#software",
-    "title": "Setup",
-    "section": "Software",
-    "text": "Software\n\nInstall Quarto (version 1.4 or later)\nInstall a recent version of RStudio or VS Code with the Quarto extension\n(Optional) Install R and/or Python for live code cells",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#verify-your-install",
-    "href": "setup.html#verify-your-install",
-    "title": "Setup",
-    "section": "Verify your install",
-    "text": "Verify your install\nRun the following in a terminal to confirm Quarto is available:\nquarto --version",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#workshop-materials",
-    "href": "setup.html#workshop-materials",
-    "title": "Setup",
-    "section": "Workshop materials",
-    "text": "Workshop materials\n\nClone the workshop repository\n\ngit clone https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr.git",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#render-a-test-slide",
-    "href": "setup.html#render-a-test-slide",
-    "title": "Setup",
-    "section": "Render a test slide",
-    "text": "Render a test slide\n\nConfirm you can render a reveal.js deck\n\nquarto render slides/01-quarto.qmd",
-    "crumbs": [
-      "Home",
-      "Workshop",
-      "Setup"
-    ]
-  },
-  {
     "objectID": "slides/04-interactivity.html#objectives",
     "href": "slides/04-interactivity.html#objectives",
     "title": "Interactivity",
@@ -1203,6 +894,126 @@
     "text": "Exercise\n\nTurn a list on one of your slides into an .incremental list\nAdd .highlight-last and the SCSS for it, so the current bullet stands out\nTake one slide, copy it, mark both auto-animate=true, and change one thing\nGive the element you changed a data-id and watch the animation get steadier"
   },
   {
+    "objectID": "materials/03-content.html#learning-objectives",
+    "href": "materials/03-content.html#learning-objectives",
+    "title": "03 · Content & layout",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nHow we can position elements on the slides\nModify standard elements",
+    "crumbs": [
+      "Home",
+      "Materials",
+      "03 · Content & layout"
+    ]
+  },
+  {
+    "objectID": "materials/02-theming.html#learning-objectives",
+    "href": "materials/02-theming.html#learning-objectives",
+    "title": "02 · Theming",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nKnow what an SCSS file is and how to use it\nSet fonts, colors, and sizes with sass variables\nKnow when to drop down to CSS rules",
+    "crumbs": [
+      "Home",
+      "Materials",
+      "02 · Theming"
+    ]
+  },
+  {
+    "objectID": "materials/04-interactivity.html#learning-objectives",
+    "href": "materials/04-interactivity.html#learning-objectives",
+    "title": "04 · Interactivity",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nWhat are fragments and how do we use them\nMaking our own fragments\nMatch elements across slides with auto-animate",
+    "crumbs": [
+      "Home",
+      "Materials",
+      "04 · Interactivity"
+    ]
+  },
+  {
+    "objectID": "materials/05-extensions.html#learning-objectives",
+    "href": "materials/05-extensions.html#learning-objectives",
+    "title": "05 · Extensions & wrap-up",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nInstall and use a Quarto reveal.js extension\nKnow where to find more extensions\nLeave with next steps and resources",
+    "crumbs": [
+      "Home",
+      "Materials",
+      "05 · Extensions & wrap-up"
+    ]
+  },
+  {
+    "objectID": "materials/01-quarto.html#learning-objectives",
+    "href": "materials/01-quarto.html#learning-objectives",
+    "title": "01 · What is Quarto?",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nUnderstand the structure of a .qmd reveal.js file\nKnow how slides and section slides are created\nRead and set common YAML options",
+    "crumbs": [
+      "Home",
+      "Materials",
+      "01 · What is Quarto?"
+    ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "Complete these steps before the workshop begins. We are meeting in person at LatinR, and venue wifi may be slow or crowded, so please do the downloads at home or at your hotel.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#software",
+    "href": "setup.html#software",
+    "title": "Setup",
+    "section": "Software",
+    "text": "Software\n\nInstall Quarto (version 1.4 or later)\nInstall a recent version of RStudio or VS Code with the Quarto extension\n(Optional) Install R and/or Python for live code cells",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#verify-your-install",
+    "href": "setup.html#verify-your-install",
+    "title": "Setup",
+    "section": "Verify your install",
+    "text": "Verify your install\nRun the following in a terminal to confirm Quarto is available:\nquarto --version",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#workshop-materials",
+    "href": "setup.html#workshop-materials",
+    "title": "Setup",
+    "section": "Workshop materials",
+    "text": "Workshop materials\n\nClone the workshop repository\n\ngit clone https://github.com/emilhvitfeldt/workshop-slidecrafting-latinr.git",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#render-a-test-slide",
+    "href": "setup.html#render-a-test-slide",
+    "title": "Setup",
+    "section": "Render a test slide",
+    "text": "Render a test slide\n\nConfirm you can render a reveal.js deck\n\nquarto render slides/01-quarto.qmd",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Setup"
+    ]
+  },
+  {
     "objectID": "slides/05-extensions.html#objectives",
     "href": "slides/05-extensions.html#objectives",
     "title": "Extensions & wrap-up",
@@ -1322,53 +1133,151 @@
     "text": "Where to go next\n\nThe book: slidecrafting-book.com\nQuarto’s reveal.js reference: quarto.org\n“Steal” from decks you like, the source is always a click away"
   },
   {
-    "objectID": "slides/examples/divs-spans.html#highlights",
-    "href": "slides/examples/divs-spans.html#highlights",
-    "title": "Divs and spans",
-    "section": "Highlights",
-    "text": "Highlights\nSome red text in a sentence.\n\nThis whole block is smaller.\n\n\nAnd this one is centered."
+    "objectID": "slides/01-quarto.html#objectives",
+    "href": "slides/01-quarto.html#objectives",
+    "title": "What is Quarto?",
+    "section": "Objectives",
+    "text": "Objectives\n\nUnderstand the structure of a .qmd reveal.js file\nKnow how slides and section slides are created\nRead and set common YAML options\nUse divs and spans to attach attributes to content"
   },
   {
-    "objectID": "slides/examples/auto-animate-basics.html#a-single-element",
-    "href": "slides/examples/auto-animate-basics.html#a-single-element",
-    "title": "Slidecrafting Workshop",
-    "section": "A single element",
-    "text": "A single element"
+    "objectID": "slides/01-quarto.html#this-workshop-has-a-book",
+    "href": "slides/01-quarto.html#this-workshop-has-a-book",
+    "title": "What is Quarto?",
+    "section": "This workshop has a book",
+    "text": "This workshop has a book\nslidecrafting-book.com\nEverything today is in there, in more detail."
   },
   {
-    "objectID": "slides/examples/auto-animate-basics.html#the-same-data-id-changed",
-    "href": "slides/examples/auto-animate-basics.html#the-same-data-id-changed",
-    "title": "Slidecrafting Workshop",
-    "section": "The same data-id, changed",
-    "text": "The same data-id, changed"
+    "objectID": "slides/01-quarto.html#reproducible",
+    "href": "slides/01-quarto.html#reproducible",
+    "title": "What is Quarto?",
+    "section": "Reproducible",
+    "text": "Reproducible\nWe get all the goodness from quarto,\nCode cells run at render time:\n\nmy-deck.qmd\n```{r}\n#| echo: false\nplot(1:10)\n```\n\nFigures and tables regenerate from the data instead of being pasted screenshots, HUGE when new data comes in."
   },
   {
-    "objectID": "slides/examples/incremental.html#revealed-one-at-a-time",
-    "href": "slides/examples/incremental.html#revealed-one-at-a-time",
-    "title": "Slidecrafting Workshop",
-    "section": "Revealed one at a time",
-    "text": "Revealed one at a time\n\nfirst\nsecond\nthird"
+    "objectID": "slides/01-quarto.html#html-native",
+    "href": "slides/01-quarto.html#html-native",
+    "title": "What is Quarto?",
+    "section": "HTML-native",
+    "text": "HTML-native\nA rendered deck is a web page.\nAnimation, video, iframes, links, and anything else the web can do."
   },
   {
-    "objectID": "slides/examples/fit-text.html#one-line",
-    "href": "slides/examples/fit-text.html#one-line",
-    "title": "Fit text",
-    "section": "",
-    "text": "This fits perfectly!"
+    "objectID": "slides/01-quarto.html#and-when-someone-insists",
+    "href": "slides/01-quarto.html#and-when-someone-insists",
+    "title": "What is Quarto?",
+    "section": "And when someone insists",
+    "text": "And when someone insists\nThe same source renders to PDF or PowerPoint.\nExcept for html specific things like animation and interactivity."
   },
   {
-    "objectID": "slides/examples/fit-text.html#one-block",
-    "href": "slides/examples/fit-text.html#one-block",
-    "title": "Fit text",
-    "section": "",
-    "text": "This fits perfectly!\nOn two lines"
+    "objectID": "slides/01-quarto.html#a-minimal-deck",
+    "href": "slides/01-quarto.html#a-minimal-deck",
+    "title": "What is Quarto?",
+    "section": "A minimal deck",
+    "text": "A minimal deck\n\n\nmy-deck.qmd\n---\ntitle: \"My first deck\"\nauthor: \"Your Name\"\nformat: revealjs\n---\n\n## First slide\n\nSome content, with a **bold** word.\n\n- one bullet\n- another bullet\n\n## Second slide\n\n```{r}\n#| echo: true\nsummary(cars$speed)\n```"
   },
   {
-    "objectID": "slides/examples/fit-text.html#two-blocks",
-    "href": "slides/examples/fit-text.html#two-blocks",
-    "title": "Fit text",
-    "section": "",
-    "text": "This fits perfectly!\n\n\nOn two lines"
+    "objectID": "slides/01-quarto.html#render-it",
+    "href": "slides/01-quarto.html#render-it",
+    "title": "What is Quarto?",
+    "section": "Render it",
+    "text": "Render it\n\nTerminal\nquarto render my-deck.qmd\n\nProduces my-deck.html.\nIf you are in a repo with index.qmd only then quarto render will find it"
+  },
+  {
+    "objectID": "slides/01-quarto.html#better-preview-it",
+    "href": "slides/01-quarto.html#better-preview-it",
+    "title": "What is Quarto?",
+    "section": "Better: preview it",
+    "text": "Better: preview it\n\nTerminal\nquarto preview my-deck.qmd\n\nRe-renders and refreshes the browser on every save.\nRStudio and Positron will help you here."
+  },
+  {
+    "objectID": "slides/01-quarto.html#presenting-shortcuts",
+    "href": "slides/01-quarto.html#presenting-shortcuts",
+    "title": "What is Quarto?",
+    "section": "Presenting shortcuts",
+    "text": "Presenting shortcuts\n\n\n\nKey\nAction\n\n\n\n\n→ / ←\nnext / previous slide\n\n\nf\nfullscreen\n\n\ns\nspeaker view\n\n\no\noverview of all slides\n\n\n?\nall shortcuts"
+  },
+  {
+    "objectID": "slides/01-quarto.html#the-yaml-header-1",
+    "href": "slides/01-quarto.html#the-yaml-header-1",
+    "title": "What is Quarto?",
+    "section": "The YAML header",
+    "text": "The YAML header\n\n\nmy-deck.qmd\n---\ntitle: \"My first deck\"\nsubtitle: \"With some options\"\nauthor: \"Your Name\"\ndate: today\nformat:\n  revealjs:\n    slide-number: true\n    progress: true\n    center: false\n    incremental: false\n    footer: \"My conference talk\"\n---\n\n\n\n\n\n\n \n\nhttps://quarto.org/docs/reference/formats/presentations/revealjs.html"
+  },
+  {
+    "objectID": "slides/01-quarto.html#options-worth-knowing-on-day-one",
+    "href": "slides/01-quarto.html#options-worth-knowing-on-day-one",
+    "title": "What is Quarto?",
+    "section": "Options worth knowing on day one",
+    "text": "Options worth knowing on day one\n\ntheme a built-in theme, your own SCSS, or both: [default, styles.scss]\nwidth / height the canvas you design against, 1280 x 720\necho show code or not; false by default, turn it on where it earns the space\ncode-line-numbers false to hide code line numbers\npagetitle what the browser tab says\n\n\nhttps://quarto.org/docs/reference/formats/presentations/revealjs.html"
+  },
+  {
+    "objectID": "slides/01-quarto.html#structure-comes-from-headings",
+    "href": "slides/01-quarto.html#structure-comes-from-headings",
+    "title": "What is Quarto?",
+    "section": "Structure comes from headings",
+    "text": "Structure comes from headings\n\n## a new slide, heading becomes the title\n# a section slide, a title-only divider"
+  },
+  {
+    "objectID": "slides/01-quarto.html#structure-comes-from-headings-1",
+    "href": "slides/01-quarto.html#structure-comes-from-headings-1",
+    "title": "What is Quarto?",
+    "section": "Structure comes from headings",
+    "text": "Structure comes from headings\n\n\nmy-deck.qmd\n# Part one\n\n## A titled slide\n\nContent.\n\n## Another titled slide\n\nMore content.\n\n# Part two\n\n## A slide in part two\n\nEven more content."
+  },
+  {
+    "objectID": "slides/01-quarto.html#divs-and-spans",
+    "href": "slides/01-quarto.html#divs-and-spans",
+    "title": "What is Quarto?",
+    "section": "Divs and spans",
+    "text": "Divs and spans\nMarkdown alone cannot say “make this part special”. Quarto adds two ways to wrap content and attach attributes to it.\n\na div wraps one or more blocks: paragraphs, lists, images, code\na span wraps a piece of text inside a paragraph\n\n\nAlmost every feature in this workshop is one of these two with a different class on it."
+  },
+  {
+    "objectID": "slides/01-quarto.html#the-syntax",
+    "href": "slides/01-quarto.html#the-syntax",
+    "title": "What is Quarto?",
+    "section": "The syntax",
+    "text": "The syntax\n\n\nDiv\n\nmy-deck.qmd\n::: {.center}\nEverything here\nis inside the div.\n:::\n\nOpening fence, attributes, content, closing fence.\n\nSpan\n\nmy-deck.qmd\nThe [important part]{.highlight}\nof the sentence.\n\nText in [], attributes in {}, no space between them."
+  },
+  {
+    "objectID": "slides/01-quarto.html#what-goes-in-the-braces",
+    "href": "slides/01-quarto.html#what-goes-in-the-braces",
+    "title": "What is Quarto?",
+    "section": "What goes in the braces",
+    "text": "What goes in the braces\n\nmy-deck.qmd\n::: {#summary .smaller .fragment style=\"color: red;\"}\nContent.\n:::\n\n\n.name a class, the usual way to reach a div from CSS\n#name an id, unique on the page\nkey=\"value\" any other attribute, style= included\n\n\nOrder does not matter, and you can use as many as you like."
+  },
+  {
+    "objectID": "slides/01-quarto.html#nesting-count-your-colons",
+    "href": "slides/01-quarto.html#nesting-count-your-colons",
+    "title": "What is Quarto?",
+    "section": "Nesting: count your colons",
+    "text": "Nesting: count your colons\n\n\n\nWorks\n:::: {.outer}\n\n::: {.inner}\nContent.\n:::\n\n::::\n\n\n\nBreaks\n::: {.outer}\n\n::: {.inner}\nContent.\n:::\n\n:::\n\n\n\nThe outer fence needs more colons than the inner one, otherwise Pandoc closes the wrong div. Three is only the minimum."
+  },
+  {
+    "objectID": "slides/01-quarto.html#divs-and-spans-in-action",
+    "href": "slides/01-quarto.html#divs-and-spans-in-action",
+    "title": "What is Quarto?",
+    "section": "Divs and spans in action",
+    "text": "Divs and spans in action\n\n\nmy-deck.qmd\n## Highlights\n\nSome [red text]{style=\"color: #b22222;\"} in a sentence.\n\n::: {.smaller}\nThis whole block is smaller.\n:::\n\n::: {style=\"text-align: center;\"}\nAnd this one is centered.\n:::"
+  },
+  {
+    "objectID": "slides/01-quarto.html#columns",
+    "href": "slides/01-quarto.html#columns",
+    "title": "What is Quarto?",
+    "section": "Columns",
+    "text": "Columns\nColumns are just nested divs: a .columns div holding .column divs.\n\n\nmy-deck.qmd\n## Two columns\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\nLeft side.\n:::\n\n::: {.column width=\"50%\"}\nRight side.\n:::\n\n::::"
+  },
+  {
+    "objectID": "slides/01-quarto.html#exercise",
+    "href": "slides/01-quarto.html#exercise",
+    "title": "What is Quarto?",
+    "section": "Exercise",
+    "text": "Exercise\n\nCreate my-deck.qmd with format: revealjs\nAdd a title slide, one # section slide, and two ## slides\nquarto preview my-deck.qmd, then press o\nDeliberately overfill a slide: five bullets, each a full sentence. Look at it. Then split it so each slide carries one idea."
+  },
+  {
+    "objectID": "slides/examples/code-highlight.html#line-by-line",
+    "href": "slides/examples/code-highlight.html#line-by-line",
+    "title": "Code highlighting",
+    "section": "Line by line",
+    "text": "Line by line\nlibrary(ggplot2)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) +\n  geom_point()"
   },
   {
     "objectID": "slides/examples/images.html#basic",
@@ -1434,6 +1343,55 @@
     "text": "Be Brave\nTake Risks"
   },
   {
+    "objectID": "slides/examples/manual-code.html#hand-styled-code",
+    "href": "slides/examples/manual-code.html#hand-styled-code",
+    "title": "Manual code",
+    "section": "Hand-styled code",
+    "text": "Hand-styled code\n\nlibrary(ggplot2)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) +\n  geom_point() +\n  geom_smooth(method = “lm”, formula = “y ~ x”)"
+  },
+  {
+    "objectID": "slides/examples/ext-flourish.html#picking-out-a-word",
+    "href": "slides/examples/ext-flourish.html#picking-out-a-word",
+    "title": "Slidecrafting Workshop",
+    "section": "Picking out a word",
+    "text": "Picking out a word\n\nmean(mtcars$mpg)\n\n[1] 20.09062"
+  },
+  {
+    "objectID": "slides/examples/ext-editable.html#move-me-around",
+    "href": "slides/examples/ext-editable.html#move-me-around",
+    "title": "Slidecrafting Workshop",
+    "section": "Move me around",
+    "text": "Move me around\nDrag this text, resize it, or retype it."
+  },
+  {
+    "objectID": "slides/examples/dark.html#a-slide-in-the-making",
+    "href": "slides/examples/dark.html#a-slide-in-the-making",
+    "title": "My first deck",
+    "section": "A slide in the making",
+    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
+  },
+  {
+    "objectID": "slides/examples/hl-simple.html#highlight-and-stay",
+    "href": "slides/examples/hl-simple.html#highlight-and-stay",
+    "title": "Slidecrafting Workshop",
+    "section": "Highlight and stay",
+    "text": "Highlight and stay\nA fragment does not have to appear. It can already be on screen and simply pick up a highlight when its turn comes."
+  },
+  {
+    "objectID": "slides/examples/ext-timeline.html#how-it-went",
+    "href": "slides/examples/ext-timeline.html#how-it-went",
+    "title": "Slidecrafting Workshop",
+    "section": "How it went",
+    "text": "How it went\n\n\nProject Started\n\n\nFirst Release\n\n\nVersion 2.0"
+  },
+  {
+    "objectID": "slides/examples/highlight-last.html#highlight-the-current-item",
+    "href": "slides/examples/highlight-last.html#highlight-the-current-item",
+    "title": "Slidecrafting Workshop",
+    "section": "Highlight the current item",
+    "text": "Highlight the current item\n\n\nfirst\n\n\n\n\nsecond\n\n\n\n\nthird"
+  },
+  {
     "objectID": "slides/examples/minimal.html#first-slide",
     "href": "slides/examples/minimal.html#first-slide",
     "title": "My first deck",
@@ -1448,95 +1406,25 @@
     "text": "Second slide\nMore content, and some code.\n\nsummary(cars$speed)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n    4.0    12.0    15.0    15.4    19.0    25.0"
   },
   {
-    "objectID": "slides/examples/columns.html#two-columns",
-    "href": "slides/examples/columns.html#two-columns",
-    "title": "Columns",
-    "section": "Two columns",
-    "text": "Two columns\n\n\nLeft side.\n\nRight side."
-  },
-  {
-    "objectID": "slides/examples/ext-flourish.html#picking-out-a-word",
-    "href": "slides/examples/ext-flourish.html#picking-out-a-word",
+    "objectID": "slides/examples/ext-roughnotation.html#annotations",
+    "href": "slides/examples/ext-roughnotation.html#annotations",
     "title": "Slidecrafting Workshop",
-    "section": "Picking out a word",
-    "text": "Picking out a word\n\nmean(mtcars$mpg)\n\n[1] 20.09062"
+    "section": "Annotations",
+    "text": "Annotations\nHighlight me!\nunderlined phrase"
   },
   {
-    "objectID": "slides/examples/code-highlight.html#line-by-line",
-    "href": "slides/examples/code-highlight.html#line-by-line",
-    "title": "Code highlighting",
-    "section": "Line by line",
-    "text": "Line by line\nlibrary(ggplot2)\nmtcars |&gt;\n  ggplot(aes(mpg, disp)) +\n  geom_point()"
+    "objectID": "slides/examples/plot-sizing.html#default",
+    "href": "slides/examples/plot-sizing.html#default",
+    "title": "Plot sizing",
+    "section": "Default",
+    "text": "Default"
   },
   {
-    "objectID": "slides/examples/fonts.html#a-slide-in-the-making",
-    "href": "slides/examples/fonts.html#a-slide-in-the-making",
-    "title": "My first deck",
-    "section": "A slide in the making",
-    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
-  },
-  {
-    "objectID": "slides/examples/ext-chatbubbles.html#the-invite",
-    "href": "slides/examples/ext-chatbubbles.html#the-invite",
-    "title": "Slidecrafting Workshop",
-    "section": "The invite",
-    "text": "The invite\n\n\nHey, are you coming tonight?\n\n\nYeah! What time does it start?\n\n\nDoors open at 7"
-  },
-  {
-    "objectID": "slides/examples/fragment-classes.html#more-than-appearing",
-    "href": "slides/examples/fragment-classes.html#more-than-appearing",
-    "title": "Slidecrafting Workshop",
-    "section": "More than appearing",
-    "text": "More than appearing\n\nfade-in\n\n\nhighlight-red\n\n\ngrow\n\n\nsemi-fade-out"
-  },
-  {
-    "objectID": "slides/examples/fragment-classes.html#out-of-order",
-    "href": "slides/examples/fragment-classes.html#out-of-order",
-    "title": "Slidecrafting Workshop",
-    "section": "Out of order",
-    "text": "Out of order\n\nshown third\n\n\nshown first\n\n\nshown second"
-  },
-  {
-    "objectID": "slides/examples/sizes.html#a-slide-in-the-making",
-    "href": "slides/examples/sizes.html#a-slide-in-the-making",
-    "title": "My first deck",
-    "section": "A slide in the making",
-    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
-  },
-  {
-    "objectID": "slides/examples/ext-auto-agenda.html#a-slide",
-    "href": "slides/examples/ext-auto-agenda.html#a-slide",
-    "title": "Slidecrafting Workshop",
-    "section": "A slide",
-    "text": "A slide"
-  },
-  {
-    "objectID": "slides/examples/ext-auto-agenda.html#another-slide",
-    "href": "slides/examples/ext-auto-agenda.html#another-slide",
-    "title": "Slidecrafting Workshop",
-    "section": "Another slide",
-    "text": "Another slide"
-  },
-  {
-    "objectID": "slides/examples/ext-auto-agenda.html#a-third-slide",
-    "href": "slides/examples/ext-auto-agenda.html#a-third-slide",
-    "title": "Slidecrafting Workshop",
-    "section": "A third slide",
-    "text": "A third slide"
-  },
-  {
-    "objectID": "slides/examples/ext-shapes.html#shapes",
-    "href": "slides/examples/ext-shapes.html#shapes",
-    "title": "Slidecrafting Workshop",
-    "section": "Shapes",
-    "text": "Shapes\n\nHello"
-  },
-  {
-    "objectID": "slides/examples/dark.html#a-slide-in-the-making",
-    "href": "slides/examples/dark.html#a-slide-in-the-making",
-    "title": "My first deck",
-    "section": "A slide in the making",
-    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
+    "objectID": "slides/examples/plot-sizing.html#tuned",
+    "href": "slides/examples/plot-sizing.html#tuned",
+    "title": "Plot sizing",
+    "section": "Tuned",
+    "text": "Tuned"
   },
   {
     "objectID": "slides/examples/persistent.html#a-way-of-working",
@@ -1558,5 +1446,117 @@
     "title": "Slidecrafting Workshop",
     "section": "On review",
     "text": "On review\n\nReviewing is where quality happens.\n\n\nReview\nRead it as if you did not write it. Ask what would confuse a newcomer, and what you are quietly hoping no one notices."
+  },
+  {
+    "objectID": "slides/examples/divs-spans.html#highlights",
+    "href": "slides/examples/divs-spans.html#highlights",
+    "title": "Divs and spans",
+    "section": "Highlights",
+    "text": "Highlights\nSome red text in a sentence.\n\nThis whole block is smaller.\n\n\nAnd this one is centered."
+  },
+  {
+    "objectID": "slides/examples/sizes.html#a-slide-in-the-making",
+    "href": "slides/examples/sizes.html#a-slide-in-the-making",
+    "title": "My first deck",
+    "section": "A slide in the making",
+    "text": "A slide in the making\nBody text, and a link in the middle of it.\nInline code like summary(cars) sits here.\n\none bullet\nanother bullet\n\nsummary(cars$speed)"
+  },
+  {
+    "objectID": "slides/examples/ext-checklist.html#where-we-got-to",
+    "href": "slides/examples/ext-checklist.html#where-we-got-to",
+    "title": "Slidecrafting Workshop",
+    "section": "Where we got to",
+    "text": "Where we got to\n\n   Ship the feature\n   Missed the deadline\n   Tests still running"
+  },
+  {
+    "objectID": "slides/examples/classes.html#a-slide-in-the-making",
+    "href": "slides/examples/classes.html#a-slide-in-the-making",
+    "title": "My first deck",
+    "section": "A slide in the making",
+    "text": "A slide in the making\nBody text, and a link in the middle of it.\nThe important part of the sentence.\n\none bullet\nanother bullet"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Slidecrafting Workshop",
+    "section": "",
+    "text": "Welcome to the Slidecrafting workshop at LatinR 2026! Over the next three hours, in person, we will learn how to craft functional and aesthetically pleasing slides using Quarto reveal.js presentations.\n\n\n\n\n\n\nNote\n\n\n\nThis workshop is a hands-on companion to the Slidecrafting book.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Slidecrafting Workshop",
+    "section": "",
+    "text": "Welcome to the Slidecrafting workshop at LatinR 2026! Over the next three hours, in person, we will learn how to craft functional and aesthetically pleasing slides using Quarto reveal.js presentations.\n\n\n\n\n\n\nNote\n\n\n\nThis workshop is a hands-on companion to the Slidecrafting book.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "Slidecrafting Workshop",
+    "section": "Logistics",
+    "text": "Logistics\n\nWhen: Wednesday 11 November 2026, morning tutorial block (8:30 to 12:00)\nWhere: Universidad de Antioquia, Medellín, Colombia (check the LatinR site for your room)\nLanguage: English\nBring: a laptop with the setup steps done, and its charger",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-will-learn",
+    "href": "index.html#what-you-will-learn",
+    "title": "Slidecrafting Workshop",
+    "section": "What you will learn",
+    "text": "What you will learn\n\nHow a reveal.js .qmd file is put together, and the YAML options worth knowing\nHow to theme slides with sass variables for fonts, colors, and sizes\nHow to position elements on a slide and modify the standard ones\nHow to use fragments, write your own, and match elements with auto-animate\nHow to install and use Quarto reveal.js extensions",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#before-you-arrive",
+    "href": "index.html#before-you-arrive",
+    "title": "Slidecrafting Workshop",
+    "section": "Before you arrive",
+    "text": "Before you arrive\nPlease complete the setup steps before the workshop. Conference wifi can be slow when a room full of people downloads at once, so install and clone ahead of time.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Slidecrafting Workshop",
+    "section": "Schedule",
+    "text": "Schedule\nSee the schedule for the full run of show.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
+  },
+  {
+    "objectID": "index.html#code-of-conduct",
+    "href": "index.html#code-of-conduct",
+    "title": "Slidecrafting Workshop",
+    "section": "Code of conduct",
+    "text": "Code of conduct\nThis workshop follows the LatinR code of conduct.",
+    "crumbs": [
+      "Home",
+      "Workshop",
+      "Slidecrafting Workshop"
+    ]
   }
 ]
